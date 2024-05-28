@@ -3,6 +3,7 @@ input[type='checkbox'] {
 }
 
 .body {
+	margin: 1em;
 	padding: 2em;
 	background-color: #242424;
 	border-radius: 8px;
@@ -15,10 +16,6 @@ input[type='checkbox'] {
 }
 
 .options {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	flex-direction: row;
 	gap: 0.7em;
 }
 
@@ -56,4 +53,13 @@ input[type='checkbox'] {
 	justify-content: center;
 	gap: 1em;
 	margin: 0.3em;
+}
+
+@media (min-width: 576px) {
+	.options {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: row;
+	}
 }

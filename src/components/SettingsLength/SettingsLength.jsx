@@ -9,7 +9,6 @@ export function SettingsLength({ passwordLength, setSettings }) {
 				type='number'
 				name='Password length'
 				id='password__length'
-				inputMode='none'
 				autoComplete='off'
 				value={passwordLength}
 				onChange={setSettings}
